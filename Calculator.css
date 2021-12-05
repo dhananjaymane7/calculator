@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: solid 2px black;
+    border-radius: 18px;
+    background: black;
+}
+.txt input
+{
+    margin-top: 80px;
+    text-align: right;
+    height: 80px;
+    width: 397px;
+    font-size: 30px;
+    border: 2px solid orange;
+    border-radius: 14px;
+    color: black;
+    font-family:monospace;
+    font-weight: 600;
+    
+}
+.main input
+{
+    
+    width: 90px;
+    height: 40px;
+    margin: 3px;
+    margin-top: 18px;
+   
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid red;
+    border-radius: 13px;
+    color: black;
+    border-color: red;
+}
+
+.clear input
+{
+    width: 120px;
+    height: 40px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-left: 140px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid green;
+    border-radius: 12px; 
+    font-family: monospace;
+    color: black;
+}
